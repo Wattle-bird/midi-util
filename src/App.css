@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+}
+table {
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+td {
+    width: 25%;
+    height: 49vh;
+    background: #aaa;
+    color: #555;
+}
+td.enabled {
+    background: #ace;
+    color: #000;
+}
+
+.splash {
+    width: 50%;
+    height: 50vh;
+    background: #aaa;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin: 25%;
+    display: table;
+}
+
+.splash-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
